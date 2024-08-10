@@ -88,3 +88,16 @@ pip install -r requirements.txt
    predicted_ner = ner_encoder.inverse_transform(np.argmax(ner_tags, axis=-1)[0])
    ```
 
+
+### Model Performance Report
+
+| Metric                    | POS Tagging | NER Tagging |
+|---------------------------|-------------|-------------|
+| **Test Accuracy**         | 99.20%      | 99.43%      |
+| **Precision**             | 0.9933      | 0.9939      |
+| **Recall**                | 0.9920      | 0.9943      |
+| **F1 Score**              | 0.9923      | 0.9936      |
+
+---
+
+This table summarizes the key performance metrics for both POS tagging and NER tasks, providing a clear and concise view of the model's effectiveness.
